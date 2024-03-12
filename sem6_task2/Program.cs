@@ -1,4 +1,4 @@
-﻿// На основе символов строки (тип string) сформир    массив
+﻿// На основе символов строки (тип string) сформируйте массив
 // символов (тип char[]). Вывести массив на экран.
 
 // Указание
@@ -11,7 +11,7 @@ Console.WriteLine("Введите строку");
 string? str = Console.ReadLine()!;//! это означает что любой символ
 
 
-char[] chars= StringToCharArray(str);
+char[] chars = StringToCharArray(str);
 PrintArray(chars);
 
 
@@ -30,7 +30,7 @@ void PrintArray(char[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"{array[i]} ");
+        Console.Write($"{array[i]}, ");
     }
 }
 
