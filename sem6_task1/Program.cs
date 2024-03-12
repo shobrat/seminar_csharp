@@ -4,13 +4,13 @@
 // Пример
 // [‘a’, ‘b’, ‘c’, ‘d’] => “abcd”
 
-string GetStringFromCharArray(char[] chars)
+string GetStringFromCharArray(char[] chars) //создание строк из символов
 {
     string str = string.Empty; //можно и таком виде: string str = " "
 
     for (int i = 0; i < chars.Length; i++)
     {
-        str += chars[i] + " ";
+        str += chars[i] + "";
     }
     return str;
 }
